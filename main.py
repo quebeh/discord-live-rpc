@@ -39,8 +39,8 @@ def GetDetails(fgw):
     return _details
 
 
-client_id = '918485200781053962'  # Put your application ID here
-im_asset = 'space'  # Put your image asset's name
+client_id = 'app_id'  # Put your application ID here
+im_asset = 'image_name'  # Put your image asset's name
 
 RPC = Presence(client_id, pipe=0)
 
